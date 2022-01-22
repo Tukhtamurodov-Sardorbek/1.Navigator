@@ -23,6 +23,8 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^1.0.0
+  url_launcher: ^6.0.17
+  photo_view: ^0.13.0
 
 flutter:
 
@@ -31,6 +33,7 @@ flutter:
   assets:
     - assets/
     - assets/gif/
+    - assets/carbon/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

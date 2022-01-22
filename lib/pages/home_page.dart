@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final Map<String, String> _buildCards = {'assets/gif/automatic navigation.gif': 'Navigate after a while', 'assets/gif/button.gif' :'Navigate by button', 'assets/gif/send_data.gif' : 'Send And Receive Data', 'assets/img.png' : 'Useful Links'};
+  final Map<String, String> _buildCards = {'assets/gif/automatic navigation.gif': 'Navigate automatically', 'assets/gif/button.gif' :'Navigate by button', 'assets/gif/send_data.gif' : 'Send And Receive Data', 'assets/2.sourceCode.png' : 'Useful Links'};
   final List<String> _pagesID = [NavigateAfterAWhile.id, NavigateByButton.id, SendData.id, 'https://medium.com/flutter-community/flutter-push-pop-push-1bb718b13c31'];
   void _nextPage(String id){
     Navigator.of(context).pushNamed(id);

@@ -7,6 +7,7 @@ import 'package:navigator/pages/3.Receive_Data_And_Go_Back_3.dart';
 import 'package:navigator/pages/3.Send_Data.dart';
 import 'package:navigator/pages/3.Receive_And_Send_Data_2.dart';
 import 'package:navigator/pages/home_page.dart';
+import 'package:navigator/pages/source_code.dart';
 
 void main(){
   runApp(const MyApp());
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         SendData.id: (context) => const SendData(),
         ReceiveAndSendData.id: (context) => const ReceiveAndSendData(name: '', age: 0),
         ReceiveDataAndGoBack.id: (context) => const ReceiveDataAndGoBack(message: ''),
+        SourceCode.id: (context) => const SourceCode(carbonCode: '', url: ''),
 
       }
     );
